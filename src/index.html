@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lundefuld.dk - plakater</title>
   </head>
-  <body>
+  <body class="bg-blue-100">
     <!-- Navigation -->
-    <div class="sticky">
+    <div class="">
       <div>
         <div class="relative">
           <!-- For md screen size -->
           <div
             id="md-searchbar"
-            class="hidden items-center justify-between bg-white py-5 px-6 lg:hidden"
+            class="hidden items-center justify-between py-5 px-6 lg:hidden"
           >
             <div class="flex items-center space-x-3 text-gray-800">
               <div>
@@ -71,15 +71,15 @@
           <!-- For md screen size -->
 
           <!-- For large screens -->
-          <div class="bg-gray-50 px-6 py-9">
+          <div class="px-6 py-9">
             <div class="container mx-auto flex items-center justify-between">
               <h1
-                class="cursor-pointer text-gray-800 md:w-2/12"
+                class="cursor-pointer text-black md:w-2/12"
                 aria-label="lunefuld.dk"
               >
                 <a href="index.html" class="font-extrabold">
                   <img
-                    class="min-h-[50px]"
+                    class="min-h-[50px] opacity-100"
                     src="content/lunefuld.svg"
                     alt="logo"
                   />
@@ -91,21 +91,21 @@
                 <li>
                   <a
                     href="shop.html"
-                    class="text-base text-gray-800 hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    class="border-y-2 border-black focus:border-y-0 focus:outline-none focus:ring-2 focus:ring-green-800"
                     >Shop/Plakater</a
                   >
                 </li>
                 <li>
                   <a
                     href="#"
-                    class="text-base text-gray-800 hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    class="border-y-2 border-black focus:border-y-0 focus:outline-none focus:ring-2 focus:ring-green-800"
                     >Inspiration</a
                   >
                 </li>
                 <li>
                   <a
                     href="om.html"
-                    class="text-base text-gray-800 hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    class="border-y-2 border-black focus:border-y-0 focus:outline-none focus:ring-2 focus:ring-green-800"
                     >Om os</a
                   >
                 </li>
@@ -118,7 +118,7 @@
                   <button
                     onclick="toggleSearch()"
                     aria-label="search items"
-                    class="w-5 text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    class="w-5 focus:outline-none focus:ring-2 focus:ring-green-800"
                   >
                     <img
                       class="rotate-90 transform"
@@ -390,30 +390,49 @@
 
     <!-- Content -->
 
-    <div class="container mx-auto px-6 py-12 xl:px-0">
+    <div class="container mx-auto px-2 py-12 xl:px-0">
       <div class="flex flex-col">
         <!-- Hero -->
         <div class="flex flex-col justify-center">
           <div class="relative">
             <img
               class="hidden w-full sm:block"
-              src="content/lunefuld-header.jpg"
+              src="content/header_2.jpg"
               alt="plakat i stue"
             />
             <img
               class="w-full sm:hidden"
-              src="content/lunefuld-header.jpg"
+              src="content/header_2.jpg"
               alt="plakat i stue"
             />
             <div
               class="absolute bottom-4 top-4 left-4 flex items-center justify-self-center pr-10 sm:bottom-8 sm:top-8 sm:left-8 sm:pr-0"
             >
               <p
-                class="text-shadow max-w-sm text-3xl font-semibold leading-9 text-white sm:text-6xl xl:text-7xl 2xl:text-8xl"
+                class="text-shadow max-w-sm text-3xl font-semibold leading-9 text-white sm:text-6xl md:max-w-xl xl:max-w-4xl xl:text-7xl 2xl:text-8xl"
               >
-                Lunefuld - Stemningsfulde plakater
+                Lunefuld - Genopliv dit hjem
               </p>
             </div>
+          </div>
+          <div class="flex-row-3 flex justify-start py-4">
+            <div
+              class="h-1 w-1 animate-ping animate-[pulse_0.5s_infinite] items-start rounded-full border-2 border-red-700"
+            ></div>
+            <button
+              class="mr-3 rounded-sm border-2 bg-yellow-200 px-10 py-2 text-black hover:border-black"
+            >
+              Bliv inspireret
+            </button>
+
+            <div
+              class="h-1 w-1 animate-ping animate-[pulse_0.5s_infinite] items-start rounded-full border-2 border-red-700"
+            ></div>
+            <button
+              class="mr-3 rounded-sm border-2 bg-yellow-200 px-6 py-2 text-black hover:border-black"
+            >
+              Bliv kloger
+            </button>
           </div>
         </div>
         <!-- Hero slut -->
