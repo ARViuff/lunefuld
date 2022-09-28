@@ -7,6 +7,26 @@
     <title>Lundefuld.dk - plakater</title>
   </head>
   <body class="bg-blue-100">
+    <!-- cookieboks-->
+
+    <div class="max-w fixed z-20 m-[10rem] h-auto bg-black p-4">
+      <p class="text-white">
+        ved at klikke okay consenter du til brugen af cookies <br />
+        vi samler data til personlig bruge. <br />
+        vi vil bruge cookies til at bedre kunne tilbyder dig plakter der flader
+        dig i smag
+        <a
+          class="font-bold"
+          href="https://web.archive.org/web/20210304234611/https://datacvr.virk.dk/data/"
+          >CVR ###</a
+        >
+      </p>
+      <div class="flex justify-center gap-10">
+        <bottom class="rounded-lg bg-green-600">Okay</bottom>
+        <bottom class="rounded-lg bg-red-500">Nej Tak</bottom>
+      </div>
+    </div>
+
     <!-- Navigation -->
     <div class="">
       <div>
@@ -420,18 +440,18 @@
               class="h-1 w-1 animate-ping animate-[pulse_0.5s_infinite] items-start rounded-full border-2 border-red-700"
             ></div>
             <button
-              class="mr-3 rounded-sm border-2 bg-yellow-200 px-10 py-2 text-black hover:border-black"
+              class="mr-3 rounded-sm border-r-2 border-b-2 bg-yellow-200 px-10 py-2 text-black hover:border-black"
             >
-              Bliv inspireret
+              <a href="*">Bliv inspireret</a>
             </button>
 
             <div
               class="h-1 w-1 animate-ping animate-[pulse_0.5s_infinite] items-start rounded-full border-2 border-red-700"
             ></div>
             <button
-              class="mr-3 rounded-sm border-2 bg-yellow-200 px-6 py-2 text-black hover:border-black"
+              class="mr-3 rounded-sm border-r-2 border-b-2 bg-yellow-200 px-6 py-2 text-black hover:border-black"
             >
-              Bliv kloger
+              <a href="/om.html">Bliv kloger</a>
             </button>
           </div>
         </div>
@@ -440,11 +460,11 @@
         <!-- Featured categories-->
         <div class="mt-10 grid items-center gap-x-8 gap-y-8 lg:grid-cols-2">
           <div
-            class="justify-left group relative flex bg-gray-50 px-8 pt-36 pb-36 transition duration-500 group-hover:bg-opacity-60 sm:pt-28 sm:pb-8"
+            class="justify-left group relative flex px-8 pt-36 pb-36 transition duration-500 group-hover:bg-opacity-60 sm:pt-28 sm:pb-8"
           >
             <a href="kategori.html"
               ><img
-                class="transition duration-500 group-hover:opacity-60"
+                class="border-r-2 border-b-2 border-black drop-shadow-lg transition duration-500 group-hover:opacity-60"
                 src="content/trae-poster.jpg"
                 alt="sofa-4"
             /></a>
@@ -460,7 +480,7 @@
               </div>
               <div>
                 <p
-                  class="text-xl font-semibold leading-5 text-gray-800 transition duration-500 group-hover:opacity-60"
+                  class="text-xl font-semibold leading-5 text-green-800 transition duration-500 group-hover:opacity-60"
                 >
                   Fra 199.-
                 </p>
@@ -469,11 +489,11 @@
           </div>
 
           <div
-            class="justify-left group relative flex bg-gray-50 px-8 pt-36 pb-36 transition duration-500 group-hover:bg-opacity-60 sm:pt-28 sm:pb-8"
+            class="justify-left group relative flex px-8 pt-36 pb-36 transition duration-500 group-hover:bg-opacity-60 sm:pt-28 sm:pb-8"
           >
             <a href="kategori.html"
               ><img
-                class="transition duration-500 group-hover:opacity-60"
+                class="border-r-2 border-b-2 border-black drop-shadow-lg transition duration-500 group-hover:opacity-60"
                 src="content/poster-byen.jpg"
                 alt="sofa-4"
             /></a>
@@ -489,20 +509,28 @@
               </div>
               <div>
                 <p
-                  class="text-xl font-semibold leading-5 text-gray-800 transition duration-500 group-hover:opacity-60"
+                  class="text-xl font-semibold leading-5 text-red-800 line-through transition duration-500 group-hover:opacity-60"
                 >
                   Fra 199.-
                 </p>
+                <div class="flex justify-start gap-4">
+                  <p
+                    class="text-xl font-semibold text-green-800 transition duration-500 group-hover:opacity-60"
+                  >
+                    fra 119.4.-
+                  </p>
+                  <p class="font-bold text-green-800">Spar 40%</p>
+                </div>
               </div>
             </div>
           </div>
 
           <div
-            class="justify-left group relative flex bg-gray-50 px-8 pt-36 pb-36 transition duration-500 group-hover:bg-opacity-60 sm:pt-28 sm:pb-8"
+            class="justify-left group relative flex px-8 pt-36 pb-36 transition duration-500 group-hover:bg-opacity-60 sm:pt-28 sm:pb-8"
           >
             <a href="kategori.html"
               ><img
-                class="transition duration-500 group-hover:opacity-60"
+                class="border-r-2 border-b-2 border-black drop-shadow-lg transition duration-500 group-hover:opacity-60"
                 src="content/minimalisme-poster.jpg"
                 alt="sofa-4"
             /></a>
@@ -518,20 +546,25 @@
               </div>
               <div>
                 <p
-                  class="text-xl font-semibold leading-5 text-gray-800 transition duration-500 group-hover:opacity-60"
+                  class="text-xl font-semibold leading-5 text-green-800 transition duration-500 group-hover:opacity-60"
                 >
-                  Fra 199.-
+                  Fra 120.-
+                </p>
+                <p
+                  class="animate-pulse text-xl font-bold leading-5 text-red-800 transition duration-500 group-hover:opacity-60"
+                >
+                  Begranset antal på lager!
                 </p>
               </div>
             </div>
           </div>
 
           <div
-            class="justify-left group relative flex bg-gray-50 px-8 pt-36 pb-36 transition duration-500 group-hover:bg-opacity-60 sm:pt-28 sm:pb-8"
+            class="justify-left group relative flex px-8 pt-36 pb-36 transition duration-500 group-hover:bg-opacity-60 sm:pt-28 sm:pb-8"
           >
             <a href="kategori.html"
               ><img
-                class="transition duration-500 group-hover:opacity-60"
+                class="border-r-2 border-b-2 border-black drop-shadow-lg transition duration-500 group-hover:opacity-60"
                 src="content/poster-sort-hvid.jpg"
                 alt="sofa-4"
             /></a>
@@ -547,9 +580,14 @@
               </div>
               <div>
                 <p
-                  class="text-xl font-semibold leading-5 text-gray-800 transition duration-500 group-hover:opacity-60"
+                  class="text-xl font-semibold leading-5 text-red-800 line-through transition duration-500 group-hover:opacity-60"
                 >
                   Fra 199.-
+                </p>
+                <p
+                  class="animate-pulse text-xl font-semibold leading-5 text-red-800 transition duration-500 group-hover:opacity-60"
+                >
+                  Udsolgt
                 </p>
               </div>
             </div>
@@ -561,7 +599,7 @@
     <!-- Content slut-->
 
     <!-- Footer -->
-    <footer class="bg-gray-800">
+    <footer class="bg-gray-800" id="buttom_info">
       <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-12 xl:px-20">
         <div
           class="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-8 lg:grid-cols-3 xl:grid-cols-4"
